@@ -1,5 +1,5 @@
 
-### Heading
+### JavaScript VWC
 **Reading (Bold)**
 * [Mozilla MDN](https://developer.mozilla.org/en-US/)
 * [The Front End Developer Handbook](https://frontendmasters.com/books/front-end-handbook/2017/)
