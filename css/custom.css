@@ -1,20 +1,25 @@
-.item-a{
+.row-1{
     grid-area: header;
+    background: orchid;
 }
-.item-b{
+.row-2{
     grid-area: main;
+    background: peachpuff;
 }
 .item-c{
     grid-area:sidebar;
+    background: olivedrab;
 }
 .item-d{
     grid-area: footer;
+    background: mediumvioletred;
 }
 .container{
     grid-template-columns: 40px 50px auto 50px 40px;
     grid-template-rows: 25% 100px auto;
 }
 body{
-   border: 1px solid powderblue;
+   border: 1px solid black;
+   background: powderblue;
    padding: 30px; 
 }
