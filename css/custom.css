@@ -6,7 +6,7 @@
     grid-area: main;
     background: peachpuff;
 }
-.item-c{
+.row-3{
     grid-area:sidebar;
     background: olivedrab;
 }
