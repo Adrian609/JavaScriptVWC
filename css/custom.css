@@ -1,31 +1,46 @@
-.row-3{
-    grid-area:sidebar;
-    background: olivedrab;
+
+.grid{ 
+    display: grid;
+    grid-template-rows: 30% 30% 30%;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 1%;
+    }
+body {
+    display: flex;
+    justify-content: center;
+      }
+
+figure {   
+   float: center;
+    display: flow-root;
+    margin: .5em;
+    padding: .5em;
+    height: 150px;
+    width: 300px;
+}
+figcaption {
+    left: 0;
+    width: 100%;
+    text-align: center; 
+    opacity: 0;
+    position: relative;
 }
 
-.row-1{
-    grid-area: header;
-    background: orchid;
+figure:hover img {
+    opacity: 0.25;
+    -webkit-transition: all .8s ease;
+    -moz-transition: all .8s ease;
+    transition: all .8s ease;
+    color: turquoise;
+    background-color: lightblue
 }
-.row-2{
-    grid-area: main;
-    background: peachpuff;
-}
-.row-3{
-    grid-area:sidebar;
-    background: olivedrab;
-}
-.item-d{
-    grid-area: footer;
-    background: mediumvioletred;
-}
-.container{
-    grid-template-columns: 40px 50px auto 50px 40px;
-    grid-template-rows: 25% 100px auto;
-    align-content: center;
-}
-body{
-   border: 1px solid black;
-   background: powderblue;
-   padding: 30px; 
+figure:hover  figcaption{
+    opacity: 1;
+    -webkit-transition: all .8s ease;
+    -moz-transition: all .8s ease;
+    transition: all .8s ease;
+    color:white;
+    display: grid;
+    background-color: lightblue;
+    background-position: 100%
 }
